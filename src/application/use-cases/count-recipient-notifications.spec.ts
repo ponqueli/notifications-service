@@ -1,7 +1,6 @@
 import { CountRecipientNotifications } from './count-recipient-notifications';
 import { Notification } from './../entities/notification';
 import { InMemoryNotificationsRepository } from '@test/repositories/in-memory-notifications-repository';
-import { CancelNotification } from './cancel-notification';
 import { Content } from '@application/entities/content';
 
 describe('Count recipients notifications', () => {
